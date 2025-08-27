@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/011/426/070/original/aesthetic-white-and-green-background-with-space-for-text-modern-background-design-with-liquid-shape-white-background-with-green-liquid-shapes-free-vector.jpg?w=2000");
+}
+h1{
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+label{
+    color: #333;
+    margin-bottom: 2px;
+    display: inline;
+    font-weight: 600;
+}
+input[type="text"], input[type="email"], input[type="tel"], input[type="address"]{
+    width: 90%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+input[type="submit"]{
+    background: linear-gradient(135deg, #97af64, #a3b361 , rgb(159, 186, 80));
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+button[type="button"] {
+    background: linear-gradient(135deg, #97af64, #a3b361 , rgb(159, 186, 80));
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+input:hover{
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border: 1px solid #888;
+    /* background-color: #a3b361; */
+
+
+}
+section{
+    background: transparent;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
