@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formpg3.css">
+    <title>Upload_Document</title>
+</head>
+<body>
+    <section>
+    <h1>Upload Document</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+        <br><br>
+        <label for="certificate">Upload Highest Level of Education Certificate:</label>
+        <input type="file" id="certificate" name="certificate" accept=".pdf,.jpg,.jpeg,.png" required>
+        <br><br>
+        <div style="display: flex; justify-content: space-between; gap: 10px;">
+            <button type="button" onclick="window.location.href='formpg2.html'">Back</button>
+            <input type="submit" onclick="alert('Files uploaded successfully! and form submitted');" value="Upload">
+        </div>
+    </form>
+    </section>
+</body>
+</html>

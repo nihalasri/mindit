@@ -24,8 +24,17 @@
         <label for="address">Address:</label><br>
         <input type="text" id="address" name="address" required><br><br>
 
-        <input type="submit" value="Next">
+        <input type="button" value="Next" onclick="goToNextPage()">
     </form>
     </section>
 </body>
 </html>
+
+<script>
+    function goToNextPage() {
+        const form = document.querySelector('form');
+        const formData = new FormData(form);
+        const queryString = new URLSearchParams(formData).toString();
+        window.location.href = `formpg2.html?${queryString}`;
+    }
+</script>

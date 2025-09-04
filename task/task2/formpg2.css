@@ -28,6 +28,46 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="address"
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
+
+select {
+    width: 92%;
+    padding: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 92%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+#skillsList {
+    list-style: disc inside;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#skillsList li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#skillsList button {
+    background: #e57373;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 12px;
+}
 input[type="submit"]{
     background: linear-gradient(135deg, #97af64, #a3b361 , rgb(159, 186, 80));
     color: white;
